@@ -143,7 +143,7 @@ if calculate:
         valid = False
 
     if not valid:
-        st.error("F2 กรุณากรอก B, DI, L, P, PA เป็นตัวเลข ให้ถูกต้อง")
+        st.error("F2 กรุณากรอก  DI, L, P, PA เป็นตัวเลข ให้ถูกต้อง")
     # ฟังก์ชั่นสาม loop J
     if J.strip() == "":
       st.error("กรุณากรอกค่า J ก่อน")
@@ -190,8 +190,8 @@ if calculate:
         st.success(f"Current Density =   {CJ_adj}  \n Amp/Sq.mm.")
         st.info(f"TURN/POLE  =  {TX_adj}")
         st.write("ตรวจคำตอบทีละขั้นตอน")
-        st.write(f"1. ค่า V หลังเงื่อนไข Y OR D =  {V}")
-        st.write(f"2. ค่า PC หลังเงื่อน Y OR D =  {PC}")
+        st.write(f"1. ค่า V  =  {V}")
+        st.write(f"2. ค่า PC  =  {PC}")
         st.write(f"3. ค่า PM =  {PM_adj}")
         st.write(f"4. Current Density =   {CJ_adj}  \n Amp/Sq.mm.")
         st.write(f"5. ค่า CON AREA A =  {CON_AREA_A}")
