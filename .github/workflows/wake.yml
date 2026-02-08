@@ -1,0 +1,14 @@
+name: Wake Streamlit App
+
+on:
+  schedule:
+    - cron: "0 23,5,11,17 * * *"
+  workflow_dispatch:
+
+jobs:
+  wake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Streamlit App
+        run: |
+          curl -L --silent --show-error https://dec-calculator2025-2-cdqwdwi7ndcso4w7gr5yuv.streamlit.app
