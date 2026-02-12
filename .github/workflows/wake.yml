@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Ping Streamlit App
         run: |
-          curl -L --silent --show-error https://dec-calculator2025-2-cdqwdwi7ndcso4w7gr5yuv.streamlit.app
+          curl -L --silent --show-error https://dec-calculator2025-2-cdqwdwi7ndcso4w7gr5yuv.streamlit.app/
